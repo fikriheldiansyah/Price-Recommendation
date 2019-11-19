@@ -23,7 +23,9 @@
     <a href="/welcome">
         <input class="btn" type="button" value ="Sign In"> 
     </a>
-    <input class="btn" type="button" value ="Sign In"> 
+    <a href="/signup">
+    <input class="btn" type="button" value ="Sign Up"> 
+    </a>
   </body>
 
 </html>

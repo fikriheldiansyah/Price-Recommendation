@@ -17,3 +17,9 @@ Route::get('/', function () {
 route::get('/welcome',function(){
     return view('welcome');
 });
+route::get('/signup',function(){
+    return view('signup');
+});
+route::get('/result',function(){
+    return view('result');
+});
