@@ -10,6 +10,7 @@
     <title>Price Recommendation</title>
   </head>
   <body>
+  <form action="{{ url('/loginPost') }}" method="post">
     <div class="login-box">
     <h1>Login</h1>
     <div class ="textbox">
@@ -26,6 +27,7 @@
     <a href="/signup">
     <input class="btn" type="button" value ="Sign Up"> 
     </a>
+    </form>
   </body>
 
 </html>

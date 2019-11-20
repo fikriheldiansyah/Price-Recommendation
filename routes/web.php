@@ -11,15 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-route::get('/welcome',function(){
-    return view('welcome');
-});
-route::get('/signup',function(){
-    return view('signup');
-});
-route::get('/result',function(){
-    return view('result');
-});
+Route::get('/','PagesControllers@home');
+Route::get('/welcome','PagesControllers@welcome');
+Route::get('/signup','PagesControllers@signup');
+Route::get('/result','PagesControllers@result');
